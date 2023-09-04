@@ -28,13 +28,13 @@ function gotResults(error,results){
             img2.src='aliens-03.png';
             img3.src='aliens-04.png';
         }
-        else if(result[0].label=="estralo"){
+        else if(results[0].label=="estralo"){
             img.src='aliens-01.png';
             img1.src='aliens-02.gif';
             img2.src='aliens-03.png';
             img3.src='aliens-04.png';
         }
-        else if(result[0].label=="colher"){
+        else if(results[0].label=="colher"){
             img.src='aliens-01.png';
             img1.src='aliens-02.png';
             img2.src='aliens-03.gif';
